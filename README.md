@@ -1,7 +1,5 @@
 # WebSphere_Configure_Snowflake_JDBC
 
-**IN CONSTRUCTION**
-
 IBM WebSphere <BR>
 How to create a Data Source connection for a Snowflake Database <BR> 
 Version 1.0 <BR>
