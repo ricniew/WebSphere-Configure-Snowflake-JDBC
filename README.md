@@ -61,8 +61,8 @@ role     = “F_ABC_MYROLE”
  1. You need administration permissions to be able to perform the required configuration steps.
 
  1. Additionally, you must install the Snowflake JDBC Driver (e.g. snowflake-jdbc-x.y.z.jar) on your WebSphere Server. The “snowflake-jdbc-3.12.16.jar” was proved as a working one. You can find it here: https://docs.snowflake.com/en/user-guide/jdbc.html
-Snowflake provides a JDBC type 4 driver that supports core JDBC functionality. The JDBC driver must be installed in a 64-bit environment and requires Java 1.8 (or higher). 
-1. Snowflake documentation: https://docs.snowflake.com/en/user-guide/jdbc.html. So please ensure WebSphere is running with JDK 1.8 (AppServerHome/bin/versioninfo.[sh,bat]) to support JDBC.  
+ 
+1. Snowflake provides a JDBC type 4 driver that supports core JDBC functionality. The JDBC driver must be installed in a 64-bit environment and requires Java 1.8 (or higher). Snowflake documentation https://docs.snowflake.com/en/user-guide/jdbc.html. So please ensure WebSphere is running with JDK 1.8 (AppServerHome/bin/versioninfo.[sh,bat]) to support JDBC.  
 
 
 2 Configure Data Source
