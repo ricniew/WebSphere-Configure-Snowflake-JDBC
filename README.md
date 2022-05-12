@@ -86,7 +86,7 @@ role     = “F_ABC_MYROLE”
  1. Goto IBM WebSphere **Console > Resource** pane and select **Data sources (WebSphere Application Server V4)**. You must use the **..Server V4** option otherwise Custom Properties cannot be set later on.<BR> 
     <img src="https://user-images.githubusercontent.com/22491423/165328397-834c59a7-8fce-4575-8eb9-8d9dfd2930a0.png" width="35%" height="35%">
  1. Select the JDBC “**Provider**” you have created before <BR> 
-    <img src="https://user-images.githubusercontent.com/22491423/165329203-241fdc05-3955-4054-a8ee-2499e240e701.png" width="35%" height="35%">
+    <img src="https://user-images.githubusercontent.com/22491423/165329203-241fdc05-3955-4054-a8ee-2499e240e701.png" width="33%" height="33%">
     - Set your “Data Source Name” and “JNDI Name”	
     - Set the “Database Name”. Note: Do not yet the entire JDBC connection string here as it is usually done for DB2/Oracle. You should set the DB name only.
     - Set “My Default User ID” and “Default Password” you got from Snowflake team
@@ -94,9 +94,9 @@ role     = “F_ABC_MYROLE”
  1.	Now modify the DS you have just created <BR> 
     <img src="https://user-images.githubusercontent.com/22491423/165330591-845a60ce-68d6-467a-a753-cdbdce31e761.png" width="35%" height="35%"> 
  1. Select “Custom Properties” and create “New” Property” <BR> 
-    <img src="https://user-images.githubusercontent.com/22491423/165330710-45847694-5088-458c-b5fe-32698c4b30eb.png" width="35%" height="35%">
+    <img src="https://user-images.githubusercontent.com/22491423/165330710-45847694-5088-458c-b5fe-32698c4b30eb.png" width="38%" height="38%">
  1. Create new  <BR> 
-    <img src="https://user-images.githubusercontent.com/22491423/165330814-d45f1b5c-9686-465f-89fa-e47d10e90e6d.png" width="35%" height="35%">
+    <img src="https://user-images.githubusercontent.com/22491423/165330814-d45f1b5c-9686-465f-89fa-e47d10e90e6d.png" width="20%" height="20%">
  1. Create `Url` Custom Property. For example: `jdbc:snowflake://abc_cdl.us.mylink.snowflakecomputing.com` <BR> 
     <img src="https://user-images.githubusercontent.com/22491423/165331096-cd6df881-19b0-45db-aff1-f12ff55a8a01.png" width="35%" height="35%">
  1. Perform the same step for each SnowFlake option you got. After you finished, it should for example looks like this: <BR> 
